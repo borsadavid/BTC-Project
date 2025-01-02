@@ -1,6 +1,6 @@
 Custom token transactions
 
-Installation guide
+Installation guide:    
 add MyToken.sol into an anvil project in /src
     
 Run ``anvil``    
