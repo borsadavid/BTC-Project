@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  #transferForm {
+    background: linear-gradient(135deg, #ff9a9e, #fecfef);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 400px;
+    max-width: 90%;
+  }
+
+  label {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    display: block;
+    color: #555;
+  }
+
+  input {
+    height: 20px;
+    width: 93%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1.1em;
+  }
+
+  button {
+    background-color: #6c63ff;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #4b47e3;
+  }
+
+  hr {
+    margin: 30px 0;
+    border: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #f39c12, #ff6347);
+  }
+
+  .account-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .account-info p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+
+  .account-info span {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.3em;
+  }
+
+  .transaction-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: none;
+    word-wrap: break-word; 
+    word-break: break-word;
+  }
+
+  .transaction-info p {
+    font-size: 1.1em;
+    color: #444;
+    margin-bottom: 10px;
+  }
